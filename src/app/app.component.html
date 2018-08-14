@@ -1,0 +1,12 @@
+<div class="main">
+  <h1>Work List</h1>
+  <div class="add_item">
+    <input type="text" (keydown.enter)="add_item()" class="add_text" placeholder="Write work here" [(ngModel)]='new_item'>
+    <button (click)="add_item()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor="let item of items; let i = index"> {{item}} 
+      <span *ngIf="i!=0" (click)="remove_item(i)">x</span>
+    </li>
+  </ul>
+</div>

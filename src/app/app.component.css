@@ -1,0 +1,57 @@
+.main{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border: 3px ridge #00000091;
+    border-bottom: 0px;
+    font-family: sans-serif;
+    background-color: rgb(178, 192, 224);
+}
+
+h1{
+    padding: 30px;
+    background-color: rgb(67, 89, 131);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #e6d3d3;
+    font-family: 'Trebuchet';
+}
+
+.add_item{
+    padding-top: 20px;
+}
+
+.add_text{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.add_item button{
+    height: 36px;
+    width: 50px;
+}
+
+ul{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+li{
+    background-color: azure;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 0; 
+}
+
+span{
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+}
